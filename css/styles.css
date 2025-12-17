@@ -12,15 +12,14 @@ ul {
   padding: 0;
 }
 
-main {
-  flex-grow: 1;
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-
 .container {
-  max-width: 1440px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  max-width: 1158px;
+  margin: 0 ;
+
 }
 .header-studio {
   padding: 24px 156px;
@@ -28,6 +27,9 @@ main {
 }
 .header-container{
   display: flex;
+  gap: 0;
+  align-items: center;
+  justify-content: space-between;
 }
 .navigation-list {
   display: flex;
@@ -137,7 +139,7 @@ main {
   display: flex;
   gap: 24px;
 }
-.features-name {
+.visually-hidden {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -145,15 +147,19 @@ main {
   text-align: center;
   color: #2e2f42;
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.features-list-title {
+  width: 264px;
 }
 .features-title {
   font-weight: 500;
@@ -201,6 +207,7 @@ main {
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    width: 264px;
 }
 .team-name-title {
   font-weight: 500;
@@ -225,7 +232,9 @@ main {
  border-left: 1px solid #e7e9fc;
  border-right: 1px solid #e7e9fc;
 }
-
+.portfolio-list-title {
+  width: 360px;
+}
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
@@ -249,9 +258,6 @@ main {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.footer-container{
-  width: 264px
 }
 .futer-fone {
   background-color: #2e2f42;
