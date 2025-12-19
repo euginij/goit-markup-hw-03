@@ -16,8 +16,9 @@ img {
   max-width: 100%; 
   height: auto;
 }
-section {
-  padding: 120px 120px;
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .container {
   max-width: 1158px;
@@ -114,6 +115,8 @@ section {
 }
 .effective-solutions {
   background-color: #2e2f42;
+  padding-bottom: 188px;
+  padding-top: 188px;
 }
 .effective-solutions-container {
   
