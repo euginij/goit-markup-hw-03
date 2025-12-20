@@ -35,16 +35,21 @@ img {
 }
 .header-container {
   display: flex;
-  gap: 0;
+  gap: 332px;
   align-items: center;
   justify-content: space-between;
 }
+.navigation-container { 
+  display: flex;
+  align-items: center;
+  gap: 76px;
 
+}
 .navigation-list {
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  padding-right: 332px;
+  
 }
 .navigation-title {
   display: inline;
@@ -90,7 +95,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration-line: none;
-  margin-right: 76px;
   padding: 24px 0;
 }
 .webstudio-logo .span-logo {
