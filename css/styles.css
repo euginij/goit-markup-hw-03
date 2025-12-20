@@ -39,9 +39,7 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-.navigation-list-title {
-  padding: 24px 0;
-}
+
 .navigation-list {
   display: flex;
   justify-content: space-between;
@@ -52,12 +50,15 @@ img {
   display: inline;
 }
 .navigation-studio {
+  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration-line: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .navigation-studio:hover,
 .navigation-studio:focus {
@@ -65,12 +66,15 @@ img {
 }
 
 .navigation {
+  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration-line: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .navigation:hover,
 .navigation:focus {
@@ -92,9 +96,7 @@ img {
 .webstudio-logo .span-logo {
   color: #2e2f42;
 }
-.navigation-adres-list {
-  padding: 24px 0;
-}
+
 .navigation-adres {
   font-style: normal;
   display: flex;
@@ -103,6 +105,9 @@ img {
 }
 
 .contacts {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -205,7 +210,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 71px;
+  padding-bottom: 72px;
 }
 .team-presentation {
   display: flex;
@@ -257,10 +262,10 @@ img {
 .portfolio-titles{
   font-weight: 700;
 font-size: 36px;
-line-height: 111%;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
-color: #2d2e41;
+color: #2e2f42;
 margin-bottom: 72px;
 }
 .portfolio-title {
